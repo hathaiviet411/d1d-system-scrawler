@@ -173,11 +173,12 @@ for element in (options):
         print('Department: ' + element.text + ' have no data, passed !')
     else:
         print('Department: ' + element.text + ' proceed successfully !')
+
     print('--------------------------------------------------------------')
     existMessageBox = True
     sleep(2)
     count += 1
 
-print('----------------------------- END SCRAPPER -----------------------------')
+print('------------------------ END SCRAPPER ------------------------')
 
 
